@@ -1,0 +1,223 @@
+CRITICAL - 2022-04-16 00:47:28 --> Undefined property: App\Controllers\C_SertifikatSeminar::$SertifikatKompetensi
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatSeminar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PKL Kampus\\w...', 25)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatSeminar->index('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatSeminar))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+ERROR - 2022-04-16 00:50:53 --> Table 'web_dosen.sertifikatseminar' doesn't exist
+CRITICAL - 2022-04-16 00:50:53 --> Table 'web_dosen.sertifikatseminar' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatSeminar.php(25): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatSeminar->index('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatSeminar))
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#11 {main}
+CRITICAL - 2022-04-16 01:08:22 --> Allowed fields must be specified for model: App\Models\M_SertifikatSeminar
+#0 D:\PKL Kampus\web-dosen\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_Se...')
+#1 D:\PKL Kampus\web-dosen\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\PKL Kampus\web-dosen\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatSeminar.php(88): CodeIgniter\Model->insert(Array)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatSeminar->AddData()
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatSeminar))
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#9 {main}
+ERROR - 2022-04-16 01:09:14 --> Unknown column 'nama_kegiatan' in 'field list'
+CRITICAL - 2022-04-16 01:09:14 --> Unknown column 'nama_kegiatan' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PKL Kampus\web-dosen\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatSeminar.php(88): CodeIgniter\Model->insert(Array)
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatSeminar->AddData()
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatSeminar))
+#10 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#13 {main}
+CRITICAL - 2022-04-16 01:10:59 --> Undefined array key "tanggal_perolehan"
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_SertifikatSeminar.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 136)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Serti...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatSeminar.php(36): view('Content/V_Serti...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatSeminar->index('1')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatSeminar))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-16 01:30:53 --> Undefined variable $count
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_Rekapitulasi.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 56)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Rekap...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(32): view('Content/V_Rekap...')
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-16 01:31:20 --> Undefined variable $dosens
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_Rekapitulasi.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 75)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Rekap...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(32): view('Content/V_Rekap...')
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-16 01:31:50 --> Undefined variable $title
+#0 D:\PKL Kampus\web-dosen\app\Views\Template\V_Template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 10)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\View\View.php(226): CodeIgniter\View\View->render('Template/V_Temp...', Array, true)
+#4 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Rekap...', Array, true)
+#5 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(32): view('Content/V_Rekap...')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#11 {main}
+CRITICAL - 2022-04-16 15:39:08 --> Call to undefined method App\Models\M_SertifikatKompetensi::Rekapitulasi
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(28): CodeIgniter\Model->__call('Rekapitulasi', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+ERROR - 2022-04-16 15:43:57 --> Unknown column 'dosen_id.id' in 'on clause'
+CRITICAL - 2022-04-16 15:43:57 --> Unknown column 'dosen_id.id' in 'on clause'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_SertifikatKompetensi.php(47): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(28): App\Models\M_SertifikatKompetensi->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-16 15:44:40 --> Call to undefined method App\Models\M_SertifikatKompetensi::getResult
+#0 D:\PKL Kampus\web-dosen\app\Models\M_SertifikatKompetensi.php(47): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(28): App\Models\M_SertifikatKompetensi->Rekapitulasi()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#7 {main}
+CRITICAL - 2022-04-16 15:45:41 --> Call to undefined method App\Models\M_SertifikatPelatihan::Rekapitulasi
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(29): CodeIgniter\Model->__call('Rekapitulasi', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+ERROR - 2022-04-16 15:48:21 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-04-16 15:48:21 --> Column 'id' in field list is ambiguous
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_SertifikatKompetensi.php(47): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(28): App\Models\M_SertifikatKompetensi->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-16 16:00:28 --> Undefined variable $countKompetensi
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_Rekapitulasi.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 56)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Rekap...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(42): view('Content/V_Rekap...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-16 16:01:45 --> Call to undefined method App\Models\M_SertifikatKompetensi::CountAllResult
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(39): CodeIgniter\Model->__call('CountAllResult', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-16 16:02:30 --> Call to undefined method App\Models\M_SertifikatKompetensi::countAllResult
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(39): CodeIgniter\Model->__call('countAllResult', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-16 16:03:05 --> Undefined variable $kompetensis
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_Rekapitulasi.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 81)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Rekap...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(44): view('Content/V_Rekap...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-16 16:09:17 --> File not found: assets/kompetensis/1650041821_f15bf18ed41396c0bfd6.pdf
+#0 D:\PKL Kampus\web-dosen\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('assets/kompeten...')
+#1 D:\PKL Kampus\web-dosen\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('assets/kompeten...', true)
+#2 D:\PKL Kampus\web-dosen\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('assets/kompeten...')
+#3 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatKompetensi.php(107): CodeIgniter\HTTP\Response->download('1650041821_f15b...', NULL)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->Download('2')
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#9 {main}
+CRITICAL - 2022-04-16 16:10:29 --> File not found: assets/kompetensis/1650041821_f15bf18ed41396c0bfd6.pdf
+#0 D:\PKL Kampus\web-dosen\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('assets/kompeten...')
+#1 D:\PKL Kampus\web-dosen\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('assets/kompeten...', true)
+#2 D:\PKL Kampus\web-dosen\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('assets/kompeten...')
+#3 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatKompetensi.php(107): CodeIgniter\HTTP\Response->download('1650041821_f15b...', NULL)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->Download('2')
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#9 {main}
+CRITICAL - 2022-04-16 17:19:07 --> Undefined property: App\Controllers\C_SertifikatWorkshop::$SertifikatKompetensi
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatWorkshop.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PKL Kampus\\w...', 88)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatWorkshop->AddData()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatWorkshop))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}

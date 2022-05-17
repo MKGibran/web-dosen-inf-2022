@@ -1,0 +1,221 @@
+CRITICAL - 2022-04-18 00:41:25 --> Call to a member function getResult() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatWorkshop->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatWorkshop))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 00:42:04 --> Call to a member function getAllResults() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatWorkshop->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatWorkshop))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 00:43:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getAllResults()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatWorkshop->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatWorkshop))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 00:44:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getAllResults()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatWorkshop->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatWorkshop))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 00:44:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatWorkshop->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatWorkshop))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 00:47:47 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatWorkshop->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatWorkshop))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:03:17 --> Call to undefined method PhpOffice\PhpSpreadsheet\Reader\Xlsx::save()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:03:19 --> Call to undefined method PhpOffice\PhpSpreadsheet\Reader\Xlsx::save()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:03:24 --> Call to undefined method PhpOffice\PhpSpreadsheet\Reader\Xlsx::save()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:03:32 --> Call to undefined method PhpOffice\PhpSpreadsheet\Reader\Xlsx::save()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->Spreadsheet()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:25:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getWhere()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:26:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:27:05 --> Too few arguments to function App\Models\M_SertifikatKompetensi::RekapitulasiDosen(), 0 passed in D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php on line 202 and exactly 1 expected
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(202): App\Models\M_SertifikatKompetensi->RekapitulasiDosen()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-18 01:27:22 --> Undefined variable $id
+#0 D:\PKL Kampus\web-dosen\app\Models\M_SertifikatKompetensi.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 56)
+#1 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(202): App\Models\M_SertifikatKompetensi->RekapitulasiDosen()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#7 {main}
+CRITICAL - 2022-04-18 01:27:30 --> Undefined variable $id
+#0 D:\PKL Kampus\web-dosen\app\Models\M_SertifikatKompetensi.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 56)
+#1 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(202): App\Models\M_SertifikatKompetensi->RekapitulasiDosen('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#7 {main}
+CRITICAL - 2022-04-18 01:27:31 --> Undefined variable $id
+#0 D:\PKL Kampus\web-dosen\app\Models\M_SertifikatKompetensi.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 56)
+#1 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(202): App\Models\M_SertifikatKompetensi->RekapitulasiDosen('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#7 {main}
+CRITICAL - 2022-04-18 01:35:20 --> Call to undefined method App\Models\M_DataDosen::getResult
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(202): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-18 01:35:44 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:35:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:36:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-18 01:38:07 --> Call to undefined method App\Models\M_SertifikatPelatihan::RekapitulasiDosen
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(231): CodeIgniter\Model->__call('RekapitulasiDos...', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-18 01:39:12 --> You tried to set a sheet active by the out of bounds index: 1. The actual number of sheets is 1.
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(236): PhpOffice\PhpSpreadsheet\Spreadsheet->setActiveSheetIndex(1)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+ERROR - 2022-04-18 01:40:40 --> Unknown column 'sertifikatpelatihan.id' in 'field list'
+CRITICAL - 2022-04-18 01:40:40 --> Unknown column 'sertifikatpelatihan.id' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `sertifi...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sertifi...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sertifi...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT `sertifi...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\PKL Kampus\web-dosen\app\Models\M_SertifikatSeminar.php(56): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(253): App\Models\M_SertifikatSeminar->RekapitulasiDosen('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-18 01:41:18 --> Undefined array key 0
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 299)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-18 01:41:35 --> Array to string conversion
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PKL Kampus\\w...', 299)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-18 01:41:41 --> Array to string conversion
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PKL Kampus\\w...', 299)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-18 01:43:42 --> You tried to set a sheet active by the out of bounds index: 1. The actual number of sheets is 1.
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(280): PhpOffice\PhpSpreadsheet\Spreadsheet->setActiveSheetIndex(1)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-18 01:47:24 --> array_splice(): Argument #2 ($offset) must be of type int, string given
+#0 D:\PKL Kampus\web-dosen\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Spreadsheet.php(635): array_splice(Array, 'Workshop', 0, Array)
+#1 D:\PKL Kampus\web-dosen\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Spreadsheet.php(591): PhpOffice\PhpSpreadsheet\Spreadsheet->addSheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'Workshop')
+#2 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(280): PhpOffice\PhpSpreadsheet\Spreadsheet->createSheet('Workshop')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->Spreadsheet('1')
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}

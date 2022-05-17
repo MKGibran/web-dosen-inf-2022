@@ -1,0 +1,695 @@
+ERROR - 2022-04-11 00:06:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(1) NOT NULL,
+	`jabatan_fungsional` VARCHAR(100) NOT NULL,
+	`pendidikan_terti...' at line 6
+ERROR - 2022-04-11 00:07:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(1) NOT NULL,
+	`jabatan_fungsional` VARCHAR(100) NOT NULL,
+	`pendidikan_terti...' at line 6
+ERROR - 2022-04-11 00:07:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(1) NOT NULL,
+	`jabatan_fungsional` VARCHAR(100) NOT NULL,
+	`pendidikan_terti...' at line 6
+ERROR - 2022-04-11 00:08:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(1) NOT NULL,
+	`jabatan_fungsional` VARCHAR(100) NOT NULL,
+	`pendidikan_terti...' at line 6
+ERROR - 2022-04-11 00:12:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(1) NOT NULL,
+	`jabatan_fungsional` VARCHAR(100) NOT NULL,
+	`pendidikan_terti...' at line 6
+ERROR - 2022-04-11 00:12:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(1) NOT NULL,
+	`jabatan_fungsional` VARCHAR(100) NOT NULL,
+	`pendidikan_terti...' at line 6
+ERROR - 2022-04-11 02:10:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(1) NOT NULL,
+	`jabatan_fungsional` VARCHAR(100) NOT NULL,
+	`pendidikan_terti...' at line 6
+ERROR - 2022-04-11 02:20:31 --> Unknown column 'status_kerja' in 'field list'
+CRITICAL - 2022-04-11 04:24:14 --> Undefined variable $i
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_MainPage.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 333)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_MainP...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(22): view('Content/V_MainP...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-11 04:24:19 --> Undefined variable $i
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_MainPage.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 333)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_MainP...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(22): view('Content/V_MainP...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-11 05:08:12 --> Call to undefined method App\Models\M_DataDosen::getAll
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(21): CodeIgniter\Model->__call('getAll', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 05:08:53 --> Call to undefined method App\Models\M_DataDosen::getResult
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(21): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 05:10:07 --> Call to undefined method App\Models\M_DataDosen::getResult
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(21): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 05:12:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 05:14:47 --> syntax error, unexpected token ";", expecting "]"
+#0 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PKL Kampus\\w...')
+#1 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-11 05:19:50 --> Undefined variable $dosens
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_MainPage.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 60)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_MainP...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(27): view('Content/V_MainP...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-11 05:25:53 --> Call to undefined method App\Models\M_DataDosen::getResult
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(23): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 05:25:59 --> Call to undefined method App\Models\M_DataDosen::getResult
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(23): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 06:40:27 --> Undefined variable $kotas
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_MainPage.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 132)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_MainP...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(28): view('Content/V_MainP...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+ERROR - 2022-04-11 07:33:46 --> Column 'foto' cannot be null
+CRITICAL - 2022-04-11 07:33:46 --> Column 'foto' cannot be null
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PKL Kampus\web-dosen\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(45): CodeIgniter\Model->insert(Array)
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#10 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#13 {main}
+ERROR - 2022-04-11 07:34:14 --> Column 'foto' cannot be null
+CRITICAL - 2022-04-11 07:34:14 --> Column 'foto' cannot be null
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PKL Kampus\web-dosen\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(45): CodeIgniter\Model->insert(Array)
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#10 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#13 {main}
+CRITICAL - 2022-04-11 11:17:37 --> Invalid file: /.php
+#0 D:\PKL Kampus\web-dosen\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('/', Array, true)
+#2 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(50): view('/', Array)
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-11 11:27:05 --> syntax error, unexpected identifier "errors", expecting "]"
+#0 D:\PKL Kampus\web-dosen\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_MainPage/AddD...')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_MainPage/AddD...')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 11:27:12 --> max_dim is not a valid rule.
+#0 D:\PKL Kampus\web-dosen\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_dim')
+#1 D:\PKL Kampus\web-dosen\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('foto', 'Image File', NULL, Array, Array)
+#2 D:\PKL Kampus\web-dosen\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(48): CodeIgniter\Controller->validate(Array)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#9 {main}
+CRITICAL - 2022-04-11 11:37:22 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 11:38:22 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 11:40:39 --> Array to string conversion
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PKL Kampus\\w...', 60)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 11:42:46 --> Call to a member function hasMoved() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 11:43:09 --> Call to a member function hasMoved() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 11:43:57 --> Call to a member function hasMoved() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 11:45:00 --> Call to a member function hasMoved() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 11:45:12 --> Call to a member function hasMoved() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 11:45:23 --> Call to a member function hasMoved() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 11:45:29 --> Call to a member function hasMoved() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 11:45:42 --> Call to a member function hasMoved() on null
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 12:05:45 --> Cannot use object of type CodeIgniter\Files\File as array
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 12:08:48 --> finfo_file(C:\xampp\tmp\php14A5.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(67): CodeIgniter\HTTP\Files\UploadedFile->store()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:10:07 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 12:10:35 --> finfo_file(C:\xampp\tmp\phpB799.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(67): CodeIgniter\HTTP\Files\UploadedFile->store('filename/')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:25:38 --> finfo_file(C:\xampp\tmp\php7E41.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(67): CodeIgniter\HTTP\Files\UploadedFile->store()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:25:58 --> finfo_file(C:\xampp\tmp\phpCBC6.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(65): CodeIgniter\HTTP\Files\UploadedFile->store()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:26:28 --> finfo_file(C:\xampp\tmp\php4154.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(65): CodeIgniter\HTTP\Files\UploadedFile->store()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:26:52 --> finfo_file(C:\xampp\tmp\php9E5A.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(65): CodeIgniter\HTTP\Files\UploadedFile->store()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:26:55 --> finfo_file(C:\xampp\tmp\phpAAAF.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(65): CodeIgniter\HTTP\Files\UploadedFile->store()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:27:34 --> finfo_file(C:\xampp\tmp\php4412.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(65): CodeIgniter\HTTP\Files\UploadedFile->store()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:35:21 --> finfo_file(C:\xampp\tmp\php63F7.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(65): CodeIgniter\HTTP\Files\UploadedFile->store('images/')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:37:02 --> finfo_file(C:\xampp\tmp\phpEF8A.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(67): CodeIgniter\HTTP\Files\UploadedFile->store('images/')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:37:18 --> finfo_file(C:\xampp\tmp\php2BB9.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'D:\\PKL Kampus\\w...', 109)
+#1 D:\PKL Kampus\web-dosen\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\PKL Kampus\web-dosen\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(67): CodeIgniter\HTTP\Files\UploadedFile->store()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-11 12:48:50 --> Unclosed '{' on line 63 does not match ')'
+#0 D:\PKL Kampus\web-dosen\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_MainPage/AddD...')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_MainPage/AddD...')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+ERROR - 2022-04-11 12:51:09 --> Column 'prodi' cannot be null
+CRITICAL - 2022-04-11 12:51:09 --> Column 'prodi' cannot be null
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PKL Kampus\web-dosen\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(96): CodeIgniter\Model->insert(Array)
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#10 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#13 {main}
+CRITICAL - 2022-04-11 13:03:47 --> The uploaded file has already been moved.
+#0 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(68): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '20220411/164965...')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#7 {main}
+CRITICAL - 2022-04-11 13:05:18 --> The uploaded file has already been moved.
+#0 D:\PKL Kampus\web-dosen\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(68): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '20220411/164965...')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->AddData()
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#7 {main}
+CRITICAL - 2022-04-11 13:19:32 --> Undefined variable $WRITEPATH
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_MainPage.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 79)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_MainP...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(32): view('Content/V_MainP...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-11 13:43:36 --> Too few arguments to function App\Controllers\C_MainPage::detail(), 0 passed in D:\PKL Kampus\web-dosen\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 13:44:26 --> syntax error, unexpected identifier "dd"
+#0 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PKL Kampus\\w...')
+#1 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-11 13:48:00 --> Too few arguments to function App\Controllers\C_MainPage::detail(), 0 passed in D:\PKL Kampus\web-dosen\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 13:51:27 --> Too few arguments to function App\Controllers\C_MainPage::detail(), 0 passed in D:\PKL Kampus\web-dosen\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 13:51:40 --> Undefined property: App\Controllers\C_MainPage::$uri
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PKL Kampus\\w...', 103)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 13:52:47 --> Undefined variable $id
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 104)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 13:53:26 --> Too few arguments to function App\Controllers\C_MainPage::detail(), 0 passed in D:\PKL Kampus\web-dosen\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 14:02:39 --> Too few arguments to function App\Controllers\C_MainPage::detail(), 0 passed in D:\PKL Kampus\web-dosen\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 14:02:57 --> Undefined property: App\Controllers\C_MainPage::$input
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PKL Kampus\\w...', 103)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 14:03:26 --> Undefined property: App\Controllers\C_MainPage::$input
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PKL Kampus\\w...', 103)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 14:08:55 --> Undefined property: App\Controllers\C_MainPage::$input
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_MainPage.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PKL Kampus\\w...', 103)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 14:09:09 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->detail()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 14:21:58 --> Call to undefined method App\Models\M_DataDosen::getResult
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(21): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 14:26:35 --> Call to a member function intval() on string
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 14:27:23 --> Call to a member function number() on string
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 14:27:26 --> Attempt to read property "number" on string
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\PKL Kampus\\w...', 20)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 14:28:40 --> Call to undefined method App\Models\M_DataDosen::getResult
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(22): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 14:29:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 15:02:48 --> Too few arguments to function App\Controllers\C_MainPage::DeleteData(), 0 passed in D:\PKL Kampus\web-dosen\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_MainPage->DeleteData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_MainPage))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 15:09:00 --> Illegal offset type
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 15:09:20 --> Illegal offset type
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 15:42:25 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Detai...', Array, true)
+#2 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(29): view('Content/V_Detai...', Array)
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index()
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-11 18:32:13 --> Too few arguments to function App\Controllers\C_DetailDosen::UpdateData(), 0 passed in D:\PKL Kampus\web-dosen\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->UpdateData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 18:32:29 --> Undefined property: App\Controllers\C_DetailDosen::$input
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PKL Kampus\\w...', 35)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->UpdateData()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-11 18:47:15 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->UpdateData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-11 18:53:41 --> Unsupported operand types: string / string
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->UpdateData()
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+ERROR - 2022-04-11 23:44:10 --> Can't create table `web_dosen`.`riwayatpendidikan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-11 23:47:13 --> Can't create table `web_dosen`.`riwayatpendidikan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-11 23:49:17 --> Can't create table `web_dosen`.`riwayatpendidikan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-11 23:50:03 --> Can't create table `web_dosen`.`riwayatpendidikan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-11 23:51:45 --> Can't create table `web_dosen`.`riwayatpendidikan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-11 23:52:59 --> Can't create table `web_dosen`.`riwayatpendidikan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-11 23:53:40 --> Can't create table `web_dosen`.`riwayatpendidikan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-11 23:58:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci' at line 10
+ERROR - 2022-04-11 23:59:04 --> Table 'riwayatpendidikan' already exists

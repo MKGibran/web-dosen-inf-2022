@@ -1,0 +1,134 @@
+CRITICAL - 2022-04-10 19:39:55 --> Attempt to read property "password" on array
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\PKL Kampus\\w...', 27)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->login()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-10 19:40:09 --> Attempt to read property "password" on array
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\PKL Kampus\\w...', 27)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->login()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-10 19:42:51 --> Undefined array key 0
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 27)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->login()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-10 20:06:24 --> syntax error, unexpected token ";", expecting ")"
+#0 D:\PKL Kampus\web-dosen\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_login/login')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_login/login')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-10 20:14:01 --> Undefined array key "PASSWORD"
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 25)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->login()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-10 20:34:30 -->  route cannot be found while reverse-routing.
+#0 D:\PKL Kampus\web-dosen\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\PKL Kampus\web-dosen\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(48): redirect('C_Login/')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-10 20:34:50 -->  route cannot be found while reverse-routing.
+#0 D:\PKL Kampus\web-dosen\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\PKL Kampus\web-dosen\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(48): redirect('C_Login/login')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-10 20:34:57 -->  route cannot be found while reverse-routing.
+#0 D:\PKL Kampus\web-dosen\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\PKL Kampus\web-dosen\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(48): redirect('C_Login/login')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-10 20:35:28 -->  route cannot be found while reverse-routing.
+#0 D:\PKL Kampus\web-dosen\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\PKL Kampus\web-dosen\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(48): redirect('C_Login/')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-10 21:07:08 --> syntax error, unexpected token ";", expecting "]"
+#0 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PKL Kampus\\w...')
+#1 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 D:\PKL Kampus\web-dosen\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#4 D:\PKL Kampus\web-dosen\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#5 D:\PKL Kampus\web-dosen\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 D:\PKL Kampus\web-dosen\system\Config\Services.php(258): config('Filters')
+#7 D:\PKL Kampus\web-dosen\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#8 D:\PKL Kampus\web-dosen\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#9 D:\PKL Kampus\web-dosen\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#10 D:\PKL Kampus\web-dosen\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#12 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#15 {main}
+CRITICAL - 2022-04-10 21:07:58 --> Call to a member function isLoggedIn() on null
+#0 D:\PKL Kampus\web-dosen\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-10 21:23:50 --> usersAuth filter must have a matching alias defined.
+#0 D:\PKL Kampus\web-dosen\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('usersAuth')
+#1 D:\PKL Kampus\web-dosen\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\PKL Kampus\web-dosen\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#7 {main}
+CRITICAL - 2022-04-10 22:43:04 --> Noauth filter must have a matching alias defined.
+#0 D:\PKL Kampus\web-dosen\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Noauth')
+#1 D:\PKL Kampus\web-dosen\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\PKL Kampus\web-dosen\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#7 {main}
+CRITICAL - 2022-04-10 23:36:12 --> Undefined variable $title
+#0 D:\PKL Kampus\web-dosen\app\Views\Auth\V_login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 24)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Auth/V_login', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(24): view('Auth/V_login')
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}

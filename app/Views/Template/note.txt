@@ -1,0 +1,18 @@
+pelatihan
+workshop
+seminar
+kompetensi
+
+spreadsheet pe dosen & pertahun
+view per dosen & pertahun
+
+Karya dosen
+___________
+Nama
+Tahun
+Jenis 
+Jenis Bukti
+Bukti-> File
+Nomor VAR
+Tautan
+Sitasi INT

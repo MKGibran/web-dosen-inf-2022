@@ -1,0 +1,457 @@
+CRITICAL - 2022-04-14 11:13:58 --> Undefined array key "name"
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_Profile.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 88)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Profi...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(27): view('Content/V_Profi...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-14 11:18:44 --> syntax error, unexpected token "}"
+#0 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PKL Kampus\\w...')
+#1 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-14 11:23:03 --> Call to undefined method App\Models\M_Auth::UpdateData
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(39): CodeIgniter\Model->__call('UpdateData', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->UpdateData()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-14 11:23:32 --> Call to undefined method App\Models\M_Auth::UpdateData
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(39): CodeIgniter\Model->__call('UpdateData', Array)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->UpdateData()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+ERROR - 2022-04-14 11:26:08 --> Table 'web_dosen.profile' doesn't exist
+CRITICAL - 2022-04-14 11:26:08 --> Table 'web_dosen.profile' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-04-14 11:26:22 --> Table 'web_dosen.profile' doesn't exist
+CRITICAL - 2022-04-14 11:26:22 --> Table 'web_dosen.profile' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-04-14 11:26:24 --> Table 'web_dosen.profile' doesn't exist
+CRITICAL - 2022-04-14 11:26:24 --> Table 'web_dosen.profile' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-04-14 11:26:26 --> Table 'web_dosen.profile' doesn't exist
+CRITICAL - 2022-04-14 11:26:26 --> Table 'web_dosen.profile' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-04-14 11:26:32 --> Table 'web_dosen.profile' doesn't exist
+CRITICAL - 2022-04-14 11:26:32 --> Table 'web_dosen.profile' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-04-14 11:27:15 --> Table 'web_dosen.profile' doesn't exist
+CRITICAL - 2022-04-14 11:27:15 --> Table 'web_dosen.profile' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-04-14 11:27:20 --> Table 'web_dosen.profile' doesn't exist
+CRITICAL - 2022-04-14 11:27:20 --> Table 'web_dosen.profile' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-04-14 11:27:56 --> Table 'web_dosen.auth' doesn't exist
+CRITICAL - 2022-04-14 11:27:56 --> Table 'web_dosen.auth' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-04-14 11:31:24 --> Unknown column 'nidn' in 'field list'
+CRITICAL - 2022-04-14 11:31:24 --> Unknown column 'nidn' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 D:\PKL Kampus\web-dosen\app\Models\M_Auth.php(50): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(39): App\Models\M_Auth->UpdateData(Array)
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->UpdateData()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#11 {main}
+ERROR - 2022-04-14 11:31:53 --> Unknown column 'prodi' in 'field list'
+CRITICAL - 2022-04-14 11:31:53 --> Unknown column 'prodi' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 D:\PKL Kampus\web-dosen\app\Models\M_Auth.php(50): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(39): App\Models\M_Auth->UpdateData(Array)
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->UpdateData()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#11 {main}
+ERROR - 2022-04-14 11:46:10 --> Table 'web_dosen.sertifikatkompetensi' doesn't exist
+CRITICAL - 2022-04-14 11:46:10 --> Table 'web_dosen.sertifikatkompetensi' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatKompetensi.php(21): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->index('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#11 {main}
+ERROR - 2022-04-14 11:51:07 --> Table 'sertifikatkompetensi' already exists
+CRITICAL - 2022-04-14 11:52:28 --> Undefined variable $countKompetensi
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_SertifikatKompetensi.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 63)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Serti...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatKompetensi.php(29): view('Content/V_Serti...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->index('1')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+ERROR - 2022-04-14 12:14:19 --> Table 'web_dosen.user' doesn't exist
+CRITICAL - 2022-04-14 12:14:19 --> Table 'web_dosen.user' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-04-14 12:14:25 --> Table 'web_dosen.user' doesn't exist
+CRITICAL - 2022-04-14 12:14:25 --> Table 'web_dosen.user' doesn't exist
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Profile.php(21): CodeIgniter\BaseModel->find('1')
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Profile->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Profile))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-04-14 12:23:57 --> syntax error, unexpected token "endif", expecting end of file
+#0 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Detai...', Array, true)
+#2 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(41): view('Content/V_Detai...', Array)
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-14 12:24:04 --> Undefined array key 0
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_DetailDosen.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 329)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Detai...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(41): view('Content/V_Detai...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-14 12:25:37 --> Undefined array key "mengajar"
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 40)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-04-14 12:26:09 --> Unclosed '(' does not match ']'
+#0 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PKL Kampus\\w...')
+#1 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-14 12:46:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-14 12:46:44 --> syntax error, unexpected double-quoted string "mengajars", expecting "]"
+#0 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PKL Kampus\\w...')
+#1 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-14 12:46:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-14 12:47:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-14 12:47:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-14 12:48:00 --> syntax error, unexpected token ";", expecting "]"
+#0 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PKL Kampus\\w...')
+#1 D:\PKL Kampus\web-dosen\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-14 12:48:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-14 12:50:03 --> Call to a member function countAllResults() on array
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-14 12:50:41 --> Call to a member function count() on array
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-14 12:51:52 --> Call to a member function countAllResults() on array
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-14 12:52:13 --> Call to a member function countAllResults() on array
+#0 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#5 {main}
+CRITICAL - 2022-04-14 12:53:31 --> syntax error, unexpected token "endif", expecting end of file
+#0 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Detai...', Array, true)
+#2 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(40): view('Content/V_Detai...', Array)
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#8 {main}
+CRITICAL - 2022-04-14 12:53:37 --> Undefined array key 0
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_DetailDosen.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 329)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Detai...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(40): view('Content/V_Detai...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-14 12:55:10 --> Undefined array key "nama"
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_DetailDosen.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 52)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Detai...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(40): view('Content/V_Detai...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-14 12:55:23 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\PKL Kampus\web-dosen\system\View\View.php(210): include()
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Detai...', Array, true)
+#3 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(39): view('Content/V_Detai...', Array)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#9 {main}
+CRITICAL - 2022-04-14 12:56:57 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\PKL Kampus\web-dosen\system\View\View.php(210): include()
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Detai...', Array, true)
+#3 D:\PKL Kampus\web-dosen\app\Controllers\C_DetailDosen.php(39): view('Content/V_Detai...', Array)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_DetailDosen->index('3')
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailDosen))
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#9 {main}
+CRITICAL - 2022-04-14 13:09:47 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\PKL Kampus\web-dosen\system\View\View.php(210): include()
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Serti...', Array, true)
+#3 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatKompetensi.php(35): view('Content/V_Serti...', Array)
+#4 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->index('1')
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#9 {main}
+CRITICAL - 2022-04-14 13:10:10 --> Array to string conversion
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_SertifikatKompetensi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PKL Kampus\\w...', 67)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Serti...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatKompetensi.php(35): view('Content/V_Serti...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->index('1')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-04-14 13:11:25 --> Array to string conversion
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_SertifikatKompetensi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PKL Kampus\\w...', 67)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Serti...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_SertifikatKompetensi.php(35): view('Content/V_Serti...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_SertifikatKompetensi->index('1')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_SertifikatKompetensi))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}

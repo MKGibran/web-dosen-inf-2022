@@ -111,7 +111,8 @@ class C_SertifikatPelatihan extends BaseController
 		return $this->response->download('assets/pelatihans/' . $data['sertifikat'], null);
     }
 
-    public function Spreadsheet(){
+    public function Spreadsheet()
+    {
         $rekapitulasi = $this->SertifikatPelatihan->Rekapitulasi();
         $result = [
             "rekapitulasi" => $rekapitulasi->getResult('array')
@@ -120,7 +121,7 @@ class C_SertifikatPelatihan extends BaseController
         // tulis header/nama kolom 
         $spreadsheet->setActiveSheetIndex(0)
                     ->setCellValue('A1', 'Nama')
-                    ->setCellValue('B1', 'nidn')
+                    ->setCellValue('B1', 'NIDN')
                     ->setCellValue('C1', 'Nama Kegiatan')
                     ->setCellValue('D1', 'Tanggal Perolehan');
         

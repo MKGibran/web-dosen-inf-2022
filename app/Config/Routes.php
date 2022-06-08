@@ -41,6 +41,7 @@ $routes->get('/rekapitulasi/unduh-sertifikat-kompetensi', 'C_SertifikatKompetens
 $routes->get('/rekapitulasi/unduh-sertifikat-pelatihan', 'C_SertifikatPelatihan::Spreadsheet');
 $routes->get('/rekapitulasi/unduh-sertifikat-seminar', 'C_SertifikatSeminar::Spreadsheet');
 $routes->get('/rekapitulasi/unduh-sertifikat-workshop', 'C_SertifikatWorkshop::Spreadsheet');
+$routes->get('/rekapitulasi/unduh-karya-dosen', 'C_KaryaDosen::Spreadsheet');
 
 // Data Dosen
 $routes->get('/', 'C_MainPage::index');
@@ -72,8 +73,14 @@ $routes->get('/detail-dosen/sertifikat-workshop/(:num)', 'C_SertifikatWorkshop::
 $routes->get('/detail-dosen/sertifikat-workshop/delete/(:num)', 'C_SertifikatWorkshop::DeleteData/$1');
 $routes->get('/detail-dosen/sertifikat-workshop/download/(:num)', 'C_SertifikatWorkshop::Download/$1');
 
+// Karya Dosen
+$routes->get('/detail-dosen/karya-dosen/(:num)', 'C_KaryaDosen::index/$1');
+$routes->get('/detail-dosen/karya-dosen/delete/(:num)', 'C_KaryaDosen::DeleteData/$1');
+$routes->get('/detail-dosen/karya-dosen/download/(:num)', 'C_KaryaDosen::Download/$1');
+
 // Auth
 $routes->get('/login', 'C_Login::index');
+$routes->get('/register', 'C_Login::register');
 $routes->post('/login/process', 'C_Login::login');
 $routes->get('/logout', 'C_Login::logout');
 

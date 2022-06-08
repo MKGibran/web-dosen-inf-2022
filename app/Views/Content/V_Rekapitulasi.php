@@ -66,7 +66,7 @@
                 </ul>
               </div>
               <div class="table-responsive container-fluid mt-3">
-                <table class="table align-items-center mb-0 kompetensi">
+                <table class="table align-items-center mb-0 kompetensi table-borderless border-white">
                   <thead>
                     <tr>
                       <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">No</th>
@@ -141,7 +141,7 @@
                 </ul>
               </div>
               <div class="table-responsive container-fluid mt-3">
-                <table class="table align-items-center mb-0 pelatihan">
+                <table class="table align-items-center mb-0 pelatihan table-borderless border-white">
                   <thead>
                     <tr>
                       <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">No</th>
@@ -217,7 +217,7 @@
                 </ul>
               </div>
               <div class="table-responsive container-fluid mt-3">
-                <table class="table align-items-center mb-0 seminar">
+                <table class="table align-items-center mb-0 seminar table-borderless border-white">
                   <thead>
                     <tr>
                       <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">No</th>
@@ -263,7 +263,7 @@
         </div>
       </div>
     </div>
-   </div>
+  </div>
   <div class="container-fluid pt-0 pb-0">                
     <div class="row my-4" style="max-height: 800px;">
       <div class="col mb-md-0 mb-4">
@@ -293,7 +293,7 @@
                 </ul>
               </div>
               <div class="table-responsive container-fluid mt-3">
-                <table class="table align-items-center mb-0 workshop">
+                <table class="table align-items-center mb-0 workshop table-borderless border-white">
                   <thead>
                     <tr>
                       <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">No</th>
@@ -340,17 +340,88 @@
       </div>
     </div>
   </div>
+  <div class="container-fluid pt-0 pb-0">                
+    <div class="row my-4" style="max-height: 800px;">
+      <div class="col mb-md-0 mb-4">
+        <div class="card border-radius-bottom-end-lg-lg border-radius-bottom-start-lg-lg">
+          <div class="card-header pb-3 bg-white">
+            <div class="row">
+              <div class="col-lg-6 col-7">
+                <h4>Rekapitulasi Karya Dosen</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card-body px-0 pb-2">
+          <div class="container-fluid">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <p class="text-sm mb-0 text-left">
+                      <span class="font-weight-bold ms-1"><?= $countKaryaDosen; ?>
+                      </span> Karya Dosen
+                    </p>
+                  </li>
+                  <li class="list-inline-item float-end">
+                    <a class="btn bg-gradient-primary d-flex float-end rounded-pill text-sm text-lowercase"
+                    href="<?= base_url('rekapitulasi/unduh-karya-dosen') ?>">
+                      Unduh <i class="px-1 bi bi-download"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="table-responsive container-fluid mt-3">
+                <table class="table align-items-center mb-0 karya table-borderless border-white">
+                  <thead>
+                    <tr>
+                      <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">No</th>
+                      <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">Nama Dosen</th>
+                      <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">NIDN</th>
+                      <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">Nama Karya</th>
+                      <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">Tahun</th>
+                      <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">Jenis</th>
+                      <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">Bukti</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <?php $i = 1; ?>
+                    <?php foreach ($rekapitulasiKaryaDosens as $karya):?>
+                    <tr>
+                      <td>
+                        <?= $i; ?>
+                      </td>
+                      <td>
+                        <?= $karya['nama']; ?>
+                      </td>
+                      <td><?= $karya['nidn']; ?></td>
+                      <td><?= $karya['nama_karya']; ?></td>
+                      <!-- ubah tanggal -->
+                      <?php $tanggal = $karya['tahun'];
+                      $tanggal = strtotime($tanggal);
+                      $tanggal = date('d-m-Y', $tanggal);
+                      ?>
+                      <!-- end of ubah tanggal -->
+                      <td><?= $tanggal; ?></td>
+                      
+                      <td><?= $karya['jenis']; ?></td>
+                      <td>
+                        <a class="btn btn-outline-danger rounded-pill text-sm my-auto text-lowercase"
+                          href="<?= base_url('/detail-dosen/karya-dosen/download/'.$karya['id']) ?>">
+                          <i class="px-1 bi bi-download"></i></a>
+                      </td>
+                    </tr>
+                    <?php $i++; ?>
+                    <?php endforeach ?>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script type="text/javascript">
     $(document).ready(function(){
       $('.kompetensi').DataTable({
-        'columns': [
-          { data: 'no' }, // index - 0
-          { data: 'nama' }, // index - 1
-          { data: 'nidn' }, // index - 2
-          { data: 'nama_kompetensi' }, // index - 3
-          { data: 'tahun_perolehan' }, // index - 4
-          { data: 'sertifikat' }, // index - 5
-      ],
       'columnDefs': [ {
           'targets': [5], // column index (start from 0)
           'orderable': false, // set orderable false for selected columns

@@ -118,7 +118,7 @@ class C_SertifikatWorkshop extends BaseController
         // tulis header/nama kolom 
         $spreadsheet->setActiveSheetIndex(0)
                     ->setCellValue('A1', 'Nama')
-                    ->setCellValue('B1', 'nidn')
+                    ->setCellValue('B1', 'NIDN')
                     ->setCellValue('C1', 'Nama Kegiatan')
                     ->setCellValue('D1', 'Tanggal Perolehan');
         

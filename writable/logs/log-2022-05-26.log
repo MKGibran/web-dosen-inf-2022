@@ -1,0 +1,232 @@
+CRITICAL - 2022-05-26 19:33:05 --> Undefined variable $countKompetensi
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_KaryaDosen.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 67)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Karya...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_KaryaDosen.php(38): view('Content/V_Karya...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_KaryaDosen->index('1')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_KaryaDosen))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-05-26 19:33:27 --> Undefined variable $kompetensis
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_KaryaDosen.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 132)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Karya...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_KaryaDosen.php(38): view('Content/V_Karya...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_KaryaDosen->index('1')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_KaryaDosen))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-05-26 20:01:28 --> Undefined variable $karyas
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_KaryaDosen.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PKL Kampus\\w...', 158)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Karya...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_KaryaDosen.php(38): view('Content/V_Karya...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_KaryaDosen->index('1')
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_KaryaDosen))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+ERROR - 2022-05-26 20:03:22 --> Column 'nama_karya' cannot be null
+CRITICAL - 2022-05-26 20:03:22 --> Column 'nama_karya' cannot be null
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PKL Kampus\web-dosen\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PKL Kampus\web-dosen\app\Controllers\C_KaryaDosen.php(95): CodeIgniter\Model->insert(Array)
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_KaryaDosen->AddData()
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_KaryaDosen))
+#10 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#13 {main}
+ERROR - 2022-05-26 20:03:45 --> Column 'nama_karya' cannot be null
+CRITICAL - 2022-05-26 20:03:45 --> Column 'nama_karya' cannot be null
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PKL Kampus\web-dosen\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PKL Kampus\web-dosen\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PKL Kampus\web-dosen\app\Controllers\C_KaryaDosen.php(95): CodeIgniter\Model->insert(Array)
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_KaryaDosen->AddData()
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_KaryaDosen))
+#10 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#13 {main}
+ERROR - 2022-05-26 20:16:05 --> Unknown column 'nama_kompetensi' in 'field list'
+CRITICAL - 2022-05-26 20:16:05 --> Unknown column 'nama_kompetensi' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `karyado...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `karyado...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `karyado...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `karyado...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_KaryaDosen.php(48): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(34): App\Models\M_KaryaDosen->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-05-26 20:17:12 --> Unknown column 'nama_kompetensi' in 'field list'
+CRITICAL - 2022-05-26 20:17:12 --> Unknown column 'nama_kompetensi' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `karyado...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `karyado...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `karyado...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `karyado...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_KaryaDosen.php(48): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(34): App\Models\M_KaryaDosen->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-05-26 20:18:41 --> Unknown column 'nama_kompetensi' in 'field list'
+CRITICAL - 2022-05-26 20:18:41 --> Unknown column 'nama_kompetensi' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `karyado...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `karyado...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `karyado...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `karyado...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_KaryaDosen.php(48): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(34): App\Models\M_KaryaDosen->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-05-26 20:18:55 --> Unknown column 'nama_kompetensi' in 'field list'
+CRITICAL - 2022-05-26 20:18:55 --> Unknown column 'nama_kompetensi' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `karyado...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `karyado...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `karyado...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `karyado...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_KaryaDosen.php(48): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(34): App\Models\M_KaryaDosen->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-05-26 20:19:09 --> Unknown column 'nama_kompetensi' in 'field list'
+CRITICAL - 2022-05-26 20:19:09 --> Unknown column 'nama_kompetensi' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `karyado...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `karyado...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `karyado...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `karyado...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_KaryaDosen.php(48): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(34): App\Models\M_KaryaDosen->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-05-26 20:19:51 --> Unknown column 'nama_kompetensi' in 'field list'
+CRITICAL - 2022-05-26 20:19:51 --> Unknown column 'nama_kompetensi' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `karyado...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `karyado...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `karyado...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `karyado...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_KaryaDosen.php(48): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(34): App\Models\M_KaryaDosen->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-05-26 20:20:28 --> Unknown column 'nama_kompetensi' in 'field list'
+CRITICAL - 2022-05-26 20:20:28 --> Unknown column 'nama_kompetensi' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `karyado...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `karyado...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `karyado...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `karyado...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_KaryaDosen.php(48): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(34): App\Models\M_KaryaDosen->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+ERROR - 2022-05-26 20:21:04 --> Unknown column 'nama_kompetensi' in 'field list'
+CRITICAL - 2022-05-26 20:21:04 --> Unknown column 'nama_kompetensi' in 'field list'
+#0 D:\PKL Kampus\web-dosen\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `karyado...', 0)
+#1 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `karyado...')
+#2 D:\PKL Kampus\web-dosen\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `karyado...')
+#3 D:\PKL Kampus\web-dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `karyado...', Array, false)
+#4 D:\PKL Kampus\web-dosen\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PKL Kampus\web-dosen\app\Models\M_KaryaDosen.php(48): CodeIgniter\Model->__call('get', Array)
+#6 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(34): App\Models\M_KaryaDosen->Rekapitulasi()
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#8 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#9 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#12 {main}
+CRITICAL - 2022-05-26 20:24:28 --> Undefined property: App\Controllers\C_Rekapitulasi::$SertifikatKaryaDosen
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PKL Kampus\\w...', 47)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-05-26 20:46:39 --> Undefined array key "nama"
+#0 D:\PKL Kampus\web-dosen\app\Views\Content\V_Rekapitulasi.php(396): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 396)
+#1 D:\PKL Kampus\web-dosen\system\View\View.php(210): include('D:\\PKL Kampus\\w...')
+#2 D:\PKL Kampus\web-dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PKL Kampus\web-dosen\system\Common.php(1089): CodeIgniter\View\View->render('Content/V_Rekap...', Array, true)
+#4 D:\PKL Kampus\web-dosen\app\Controllers\C_Rekapitulasi.php(51): view('Content/V_Rekap...', Array)
+#5 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Rekapitulasi->index()
+#6 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Rekapitulasi))
+#7 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#10 {main}
+CRITICAL - 2022-05-26 20:50:10 --> Undefined array key "tahun_perolehan"
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_KaryaDosen.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 133)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_KaryaDosen->Spreadsheet()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_KaryaDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-05-26 20:55:15 --> Undefined array key "tahun_perolehan"
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_KaryaDosen.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PKL Kampus\\w...', 138)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_KaryaDosen->Spreadsheet()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_KaryaDosen))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}
+CRITICAL - 2022-05-26 22:29:50 --> Undefined property: App\Controllers\C_Login::$M_Auth
+#0 D:\PKL Kampus\web-dosen\app\Controllers\C_Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PKL Kampus\\w...', 55)
+#1 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(832): App\Controllers\C_Login->addUser()
+#2 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#3 D:\PKL Kampus\web-dosen\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PKL Kampus\web-dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PKL Kampus\web-dosen\system\Commands\Server\rewrite.php(43): require_once('D:\\PKL Kampus\\w...')
+#6 {main}

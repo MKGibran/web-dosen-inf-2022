@@ -47,7 +47,7 @@
   <!-- End Navbar -->
   <main class="main-content  mt-0">
     <section class="min-vh-70 mb-8">
-      <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('<?= base_url('/assets/img/curved-images/curved14.jpg') ?>');">
+      <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('<?= base_url('/assets/img/curved-images/curved1.jpg') ?>');">
         <span class="mask bg-gradient-dark opacity-6"></span>
         <div class="container">
           <!-- <div class="row justify-content-center">
@@ -79,6 +79,9 @@
                   </div>
                   <div class="text-center">
                     <button type="submit" class="btn bg-gradient-dark w-100 my-4 mb-2">Sign In</button>
+                  </div>
+                  <div class="text-center">
+                    <a type="button" href="<?= base_url('register') ?>" class="btn bg-gradient-dark w-100 my-1 mb-2">Sign Up</a>
                   </div>
                 </form>
               </div>

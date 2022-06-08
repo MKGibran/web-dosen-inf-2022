@@ -41,6 +41,16 @@
       });
     });
   </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.karya').DataTable({
+      'columnDefs': [ {
+          'targets': [8, 9], // column index (start from 0)
+          'orderable': false, // set orderable false for selected columns
+      }]
+      });
+    });
+  </script>
 
 </head>
 

@@ -109,7 +109,8 @@ class C_SertifikatKompetensi extends BaseController
 		return $this->response->download('assets/kompetensis/' . $data['sertifikat'], null);
     }
 
-    public function Spreadsheet(){
+    public function Spreadsheet()
+    {
         $rekapitulasi = $this->SertifikatKompetensi->Rekapitulasi();
         $result = [
             "rekapitulasi" => $rekapitulasi->getResult('array')
@@ -118,7 +119,7 @@ class C_SertifikatKompetensi extends BaseController
         // tulis header/nama kolom 
         $spreadsheet->setActiveSheetIndex(0)
                     ->setCellValue('A1', 'Nama')
-                    ->setCellValue('B1', 'nidn')
+                    ->setCellValue('B1', 'NIDN')
                     ->setCellValue('C1', 'Nama Kompetensi')
                     ->setCellValue('D1', 'Tahun Perolehan');
         

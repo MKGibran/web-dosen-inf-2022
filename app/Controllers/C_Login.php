@@ -12,6 +12,7 @@ class C_Login extends BaseController
         $this->User = new M_Auth();
         
     }
+    
     public function index()
     {
         if (session()->get('logged_in')) {
@@ -24,13 +25,49 @@ class C_Login extends BaseController
         return view('Auth/V_login', $data);
     }
 
+    public function register()
+    {
+        if (session()->get('logged_in')) {
+            return redirect()->to(base_url('/'));
+        }
+
+        $data = [
+            'title' => 'Web Dosen | Register',
+        ];
+        return view('Auth/V_register', $data);
+    }
+
+    public function addUser()
+    {
+        $nama = $this->request->getPost('nama');
+        $username = $this->request->getPost('username');
+        $password = $this->request->getPost('password');
+        $password = password_hash($password, PASSWORD_DEFAULT);
+
+        $dataUser = $this->User->where(['username' => $username])->first();
+
+        if (!$dataUser) {
+            $data = [
+                'nama'      => $nama,
+                'username'  => $username,
+                'password'  => $password
+            ];
+
+            $this->User->insert($data);
+            session()->setFlashdata('succeed', 'Registrasi Berhasil');
+            return redirect()->back();
+        } else {
+            session()->setFlashdata('error', 'Username Sudah Ada Sebelumnya');
+            return redirect()->back();
+        }
+    }
+
     public function login()
     {
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
 
         $dataUser = $this->User->where(['username' => $username])->first();
-        // dd($dataUser['password']);
 
         if ($dataUser) {
             if (password_verify($password, $dataUser['password'])) {
@@ -42,11 +79,11 @@ class C_Login extends BaseController
                 ]);
                 return redirect()->to(base_url('/'));
             } else {
-                session()->setFlashdata('error', 'Username & Password Salah');
+                session()->setFlashdata('error', 'Username Atau Password Salah');
                 return redirect()->back();
             }
         } else {
-            session()->setFlashdata('error', 'Username & Password Salah');
+            session()->setFlashdata('error', 'Username Atau Password Tidak Ditemukan');
             return redirect()->back();
         }
     }

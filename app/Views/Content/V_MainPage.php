@@ -66,7 +66,7 @@
               </ul>
             </div>
             <div class="table-responsive container-fluid mt-3">
-              <table class="table align-items-center mb-0 data">
+              <table class="table align-items-center mb-0 data table-borderless border-white">
                 <thead>
                   <tr>
                     <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">No</th>

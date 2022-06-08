@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\M_DataDosen;
+use App\Models\M_KaryaDosen;
 use App\Models\M_RiwayatMengajar;
 use App\Controllers\BaseController;
 use App\Models\M_RiwayatPendidikan;
@@ -22,6 +23,7 @@ class C_Rekapitulasi extends BaseController
         $this->SertifikatPelatihan = new M_SertifikatPelatihan();
         $this->SertifikatSeminar = new M_SertifikatSeminar();
         $this->SertifikatWorkshop = new M_SertifikatWorkshop();
+        $this->KaryaDosen = new M_KaryaDosen();
     }
     public function index()
     {
@@ -29,6 +31,7 @@ class C_Rekapitulasi extends BaseController
         $rekapitulasiPelatihan = $this->SertifikatPelatihan->Rekapitulasi();
         $rekapitulasiSeminar = $this->SertifikatSeminar->Rekapitulasi();
         $rekapitulasiWorkshop = $this->SertifikatWorkshop->Rekapitulasi();
+        $rekapitulasiKaryaDosen = $this->KaryaDosen->Rekapitulasi();
 
         $data = [
             "title" => "Web Dosen | Rekapitulasi",
@@ -36,10 +39,12 @@ class C_Rekapitulasi extends BaseController
             "rekapitulasiPelatihans" => $rekapitulasiPelatihan->getResult('array'),
             "rekapitulasiSeminars" => $rekapitulasiSeminar->getResult('array'),
             "rekapitulasiWorkshops" => $rekapitulasiWorkshop->getResult('array'),
+            "rekapitulasiKaryaDosens" => $rekapitulasiKaryaDosen->getResult('array'),
             "countKompetensi" => $this->SertifikatKompetensi->countAllResults(),
             "countPelatihan" => $this->SertifikatPelatihan->countAllResults(),
             "countSeminar" => $this->SertifikatSeminar->countAllResults(),
             "countWorkshop" => $this->SertifikatWorkshop->countAllResults(),
+            "countKaryaDosen" => $this->KaryaDosen->countAllResults(),
         ];
 
 

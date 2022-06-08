@@ -1,7 +1,7 @@
 <?= $this->extend('Template/V_Template') ?>
 
 <?= $this->section('content') ?>
-<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
   <!-- Navbar -->
   <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
     navbar-scroll="true">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-xl-6">
                   <div class="table-responsive mt-3" style="overflow-y: auto;">
-                    <table class="table">
+                    <table class="table table-borderless border-white">
                       <tbody>
                         <tr>
                           <td class="text-left" style="opacity: 70%;">Nama</td>
@@ -121,6 +121,9 @@
                                 </li>
                                 <li><a class="dropdown-item text-capitalize"
                                     href="<?= base_url('detail-dosen/sertifikat-workshop/'.$result[0]['id']) ?>">Workshop</a>
+                                </li>
+                                <li><a class="dropdown-item text-capitalize"
+                                    href="<?= base_url('detail-dosen/karya-dosen/'.$result[0]['id']) ?>">Karya Dosen</a>
                                 </li>
                               </ul>
                               <a href="<?= base_url('unduh/rekapitulasi-sertifikat/'.$result[0]['id']) ?>" class="btn btn-danger text-capitalize text-sm rounded-pill">Rekapitulasi 
@@ -236,7 +239,7 @@
               </ul>
             </div>
             <div class="table-responsive container-fluid mt-3">
-              <table class="table align-items-center mb-0 pendidikan">
+              <table class="table align-items-center mb-0 pendidikan table-borderless border-white">
                 <thead>
                   <tr>
                     <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">No</th>
@@ -363,7 +366,7 @@
               </ul>
             </div>
             <div class="table-responsive container-fluid mt-3">
-              <table class="table align-items-center mb-0 mengajar">
+              <table class="table align-items-center mb-0 mengajar table-borderless border-white">
                 <thead>
                   <tr>
                     <th class="text-uppercase text-dark text-xxs font-weight-bolder opacity-7">No</th>
